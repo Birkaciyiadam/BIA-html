@@ -1,56 +1,4 @@
-<!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-<title></title>
-<link rel="shortcut icon" type="image/png" href="images/icon/bia-favicon.PNG"/>
-<link rel="shortcut icon" type="image/png" href="images/icon/bia-favicon.PNG"/>
-
-	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/line/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/line/style.css"> <!-- Resource style -->
-	<script src="vendor/line/modernizr.js"></script> <!-- Modernizr -->
-
-
-<script src="vendor/bootstrap/js/jquery-1.11.0.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap-theme.min.css">
-<link href="vendor/bootstrap/css/full-slider.css" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/mobile.css">
-</head>
-<body>
-<div class="container">
-	<div class="col-md-9">
-			<h4 style="color:#bbb;">
-			Birkaç iyi adam | <span class="people">30</span> kişi oldu
-			</h4>
-	</div>
-</div>
-<div class="container-fluid" style="background:#ddd;height:1px;"></div>
-<div class="container-fluid top-menu-back">
-	<div class="container top-menu">
-		<div class="col-md-2 top-menu-left">
-			<a href="index.html"><img src="images/bia.png" ></a>
-		</div>
-		<div class="col-md-10 top-menu-right">
-			<nav>
-				<ul>
-					<a href="index.html">Anasayfa</a>
-					<a href="sistem.html">Sistem Nasıl Çalışıyor ?</a>
-					<a href="ekip.html">Gönüllü Ekip</a>
-					<a href="destek.html">Desteklenen Grişimler</a>
-					<a href="iletisim.html">İletişim</a>
-				</ul>
-			</nav>
-		</div>
-	</div>
-</div>
+<?php include_once('header.php')?>
 <div class="container-fluid" style="background:#ddd;height:1px;"></div>
 <br>
 <div class="container" style="text-align:center;background:white;">
@@ -214,7 +162,7 @@
 	</div>
 	<div class="row" style="padding:10px;">
 		<div class="col-md-2">
-			<a href=""><img src="images/bloger/" width="160"  class="img-circle"></a>
+			<a href=""><img src="images/bloger/hasan-deniz.jpg" width="160"  class="img-circle"></a>
 		</div>
 		<div class="col-md-3">
 			<h4>Hasan DENİZ</h4>
@@ -265,7 +213,7 @@
 	</div>
 	<div class="row" style="padding:10px;">
 		<div class="col-md-2">
-			<a href=""><img src="images/bloger/" width="160"  class="img-circle"></a>
+			<a href=""><img src="images/bloger/samil-ok.jpg" width="160"  class="img-circle"></a>
 		</div>
 		<div class="col-md-3">
 			<h4>Bilal Şamil Okan</h4>
@@ -282,7 +230,7 @@
 	</div>
 	<div class="row" style="padding:10px;">
 		<div class="col-md-2">
-			<a href=""><img src="images/bloger/" width="160"  class="img-circle"></a>
+			<a href=""><img src="images/bloger/huseyin-yldr.jpg" width="160"  class="img-circle"></a>
 		</div>
 		<div class="col-md-3">
 			<h4>Hüseyin Yıldırım</h4>
@@ -299,7 +247,7 @@
 	</div>
 	<div class="row" style="padding:10px;">
 		<div class="col-md-2">
-			<a href=""><img src="images/bloger/" width="160"  class="img-circle"></a>
+			<a href=""><img src="images/bloger/enver-melih-s.jpg" width="160"  class="img-circle"></a>
 		</div>
 		<div class="col-md-3">
 			<h4>Enver Melih Sorkun</h4>
@@ -333,7 +281,7 @@
 	</div>
 	<div class="row" style="padding:10px;">
 		<div class="col-md-2">
-			<a href=""><img src="images/bloger/berkcansanel.webp" width="160"  class="img-circle"></a>
+			<a href=""><img src="images/bloger/berkcansanel.webp" width="160" height="170"  class="img-circle"></a>
 		</div>
 		<div class="col-md-3">
 			<h4>Berkcan Sarıel</h4>
@@ -450,6 +398,22 @@
 			Merhabalar, Haftada 4-8 saat İş Analizleri, İş modelleri, pazar analizi, sosyal medya pazarlaması konularında destek verebilirim.
 		</div>
 	</div>
+	<div class="row" style="padding:10px;">
+		<div class="col-md-2">
+			<a href=""><img src="images/bloger/serkan-krt.jpg" width="160"  class="img-circle"></a>
+		</div>
+		<div class="col-md-3">
+			<h4>Serkan Kurtuluş</h4>
+			<!--<h5>BT İş Analisti</h5>
+			<h5>ogulcanyrlmz@gmail.com</h5>
+			<i class="social facebook"><a href="http://www.facebook.com/oyrlmzz">f</a></i>
+			<i class="social tiwetter"><a href="http://www.twitter.com/oyrlmzz">t</a></i>
+			<i class="social linkedin"><a href="tr.linkedin.com/in/ogulcanyorulmaz/tr">in</a></i>
+			<i class="social googleplus"><a href="http://www.firsttie.com">Web<sup>+</sup></a></i>-->
+		</div>
+		<div class="col-md-7">
+			Merhaba, gelen projelere yalın-girişim (lean start-up) prensipleri çerçevesinde mentörlük, sunum hazırlama, iş fikrini test ve teyit etme, organizasyon kurma, ürünü konumlandırma konularında destek verebilirim.</div>
+	</div>
 
 
 </div>
@@ -458,7 +422,7 @@
 
 
 
-
+<!--
 <div class="container">
 	<div class="col-md-12" align="center">
 			<h1 align="center" style="font-weight:bold;">DESTEK VERENLER</h1>	<br><br>
@@ -559,7 +523,7 @@
 			</div>
 	</div>
 </div>
-
+-->
 <br>
 <div class="container-fluid" style="background:#ddd;height:1px;"></div>
 <div class="container-fluid" style="background:">
