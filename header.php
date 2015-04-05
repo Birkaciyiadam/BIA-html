@@ -27,7 +27,7 @@
 <div class="container">
 	<div class="col-md-9">
 			<h4 style="color:#bbb;">
-			Birkaç iyi adam | <span class="people">24</span> kişi oldu
+			Birkaç iyi adam | <span class="people">40</span> kişi oldu
 			</h4>
 	</div>
 </div>
@@ -35,16 +35,16 @@
 <div class="container-fluid top-menu-back">
 	<div class="container top-menu">
 		<div class="col-md-2 top-menu-left">
-			<a href="index.html"><img src="/images/bia.PNG" ></a>
+			<a href="index.php"><img src="/images/bia.PNG" ></a>
 		</div>
 		<div class="col-md-10 top-menu-right">
 			<nav>
 				<ul>
-					<a href="index.php">Anasayfa</a>
-					<a href="sistem.php">Sistem Nasıl Çalışıyor ?</a>
-					<a href="ekip.php">Gönüllü Ekip</a>
-					<!--<a href="destek.php">Desteklenen Grişimler</a>-->
-					<a href="iletisim.php">İletişim</a>
+					<a href="/index.php">Anasayfa</a>
+					<a href="/sistem.php">Sistem Nasıl Çalışıyor ?</a>
+					<a href="/ekip.php">Gönüllü Ekip</a>
+					<a href="/ne_yaptik.php">Ne Yaptık</a>
+					<a href="/iletisim.php">İletişim</a>
 				</ul>
 			</nav>
 		</div>
